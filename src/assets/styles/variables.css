@@ -1,0 +1,60 @@
+/* src/assets/styles/variables.css */
+:root {
+  /* Brand */
+  --brand: #0aa0ff;
+  --brand-600: #098bdc;
+  --brand-700: #0776ba;
+
+  /* Neutrals */
+  --bg: #f9f9f9;
+  --bg-elev: #ffffff;
+  --text: #333333;
+  --muted: #6b7280;
+  --border: #d1d5db;
+
+  /* Accents / states */
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --danger:  #ef4444;
+  --info:    #0ea5e9;
+
+  /* Layout */
+  --maxw: 960px;
+  --radius: 10px;
+  --radius-sm: 6px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.06);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.12);
+  --shadow-lg: 0 12px 24px rgba(0,0,0,.18);
+
+  /* Typography */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  --h1: 2rem;
+  --h2: 1.5rem;
+  --base: 16px;
+  --lead: 1.1rem;
+
+  /* Timing */
+  --dur: 160ms;
+  --ease: cubic-bezier(.2,.7,.3,1);
+
+  /* Grid breakpoints (px) */
+  --bp-1: 600;
+  --bp-2: 900;
+  --bp-3: 1200;
+}
+
+/* Optional dark mode base (keeps it minimal) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1115;
+    --bg-elev: #151821;
+    --text: #e7e7e7;
+    --muted: #a3a3a3;
+    --border: #2b2f3a;
+    --brand: #4cb7ff;
+    --brand-600: #32a8fb;
+    --brand-700: #1f93e8;
+  }
+}

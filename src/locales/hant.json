@@ -1,0 +1,34 @@
+{
+  "site": {
+    "title": "智格科技有限公司",
+    "tagline": "為你的創意打造智慧基礎架構。",
+    "copyright": "智格科技有限公司"
+  },
+  "intro": {
+    "p1": "我們協助中小型企業將創意化為現實——從 iOS / Android 應用到線上平台。我們負責後端，讓你能專注於最重要的客戶。",
+    "p2": "所有應用與網站皆在智格科技有限公司運行，無需自行架設伺服器或申請帳號。",
+    "badges": {
+      "rails_sidekiq": "Rails + Sidekiq",
+      "automation": "自動化",
+      "infrastructure": "基礎架構"
+    }
+  },
+  "offer": {
+    "title": "我們提供的服務",
+    "items": {
+      "simple": "✔️ 簡單快速的行動或網頁應用開發",
+      "no_accounts": "✔️ 無需處理 Apple / Google 開發者帳號",
+      "backend": "✔️ 後端支援由 Rails 與 Sidekiq 驅動——自動化、通知、報表",
+      "pricing": "✔️ 固定設定費用 + 可依需求擴充的月租託管服務"
+    }
+  },
+  "work": {
+    "title": "我們的作品",
+    "spot": "The Spot",
+    "dojomate": "DojoMate 應用程式",
+    "combatives": "Source Combatives"
+  },
+  "contact": {
+    "p": "若你希望簡化營運或實現數位化創意，請寄信至 {email} 以瞭解更多資訊。"
+  }
+}

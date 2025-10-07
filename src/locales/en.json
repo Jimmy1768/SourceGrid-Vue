@@ -1,0 +1,34 @@
+{
+  "site": {
+    "title": "SourceGrid Labs",
+    "tagline": "Smart infrastructure for your ideas.",
+    "copyright": "SourceGrid Labs"
+  },
+  "intro": {
+    "p1": "We help small businesses bring ideas to life — from iOS/Android apps to online platforms. We handle the backend so you can focus on what matters: your customers.",
+    "p2": "All apps and sites run under SourceGrid Labs — so there's no need to set up your own infrastructure or accounts.",
+    "badges": {
+      "rails_sidekiq": "Rails + Sidekiq",
+      "automation": "Automation",
+      "infrastructure": "Infrastructure"
+    }
+  },
+  "offer": {
+    "title": "What We Offer",
+    "items": {
+      "simple": "✔️ Simple mobile or web app creation",
+      "no_accounts": "✔️ No need to deal with Apple/Google developer accounts",
+      "backend": "✔️ Backend support powered by Rails & Sidekiq — automation, alerts, reports",
+      "pricing": "✔️ Fixed setup fee + scalable monthly hosting based on your needs"
+    }
+  },
+  "work": {
+    "title": "Our Work",
+    "spot": "The Spot",
+    "dojomate": "DojoMate App",
+    "combatives": "Source Combatives"
+  },
+  "contact": {
+    "p": "If you're a small business looking to simplify your operations or bring a digital idea to life, email us at {email} to learn more."
+  }
+}

@@ -1,0 +1,92 @@
+/* src/assets/styles/components.css */
+
+/* Buttons */
+.btn {
+  --btn-bg: var(--brand);
+  --btn-fg: #fff;
+  --btn-bd: transparent;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+
+  padding: .55rem .9rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--btn-bd);
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font-weight: 600;
+  line-height: 1.1;
+  cursor: pointer;
+  transition: transform var(--dur) var(--ease), background var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+  box-shadow: var(--shadow-sm);
+}
+.btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.btn:active { transform: translateY(0); box-shadow: var(--shadow-sm); }
+.btn:disabled { opacity: .6; cursor: not-allowed; }
+
+.btn--ghost {
+  --btn-bg: transparent;
+  --btn-fg: var(--text);
+  --btn-bd: var(--border);
+}
+.btn--outline {
+  --btn-bg: transparent;
+  --btn-fg: var(--brand);
+  --btn-bd: var(--brand);
+}
+.btn--danger {
+  --btn-bg: var(--danger);
+  --btn-fg: #fff;
+}
+.btn--success {
+  --btn-bg: var(--success);
+  --btn-fg: #fff;
+}
+.btn--light {
+  --btn-bg: var(--bg-elev);
+  --btn-fg: var(--text);
+  --btn-bd: var(--border);
+}
+
+.btn--sm { padding: .4rem .7rem; border-radius: 8px; font-size: .9rem; }
+.btn--lg { padding: .8rem 1.1rem; font-size: 1.05rem; }
+
+/* Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .18rem .5rem;
+  border-radius: 999px;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .01em;
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
+  color: var(--muted);
+}
+.badge--primary  { background: color-mix(in oklab, var(--brand) 14%, #fff); color: var(--brand-700); border-color: color-mix(in oklab, var(--brand) 35%, #fff); }
+.badge--success  { background: color-mix(in oklab, var(--success) 14%, #fff); color: #14532d; border-color: color-mix(in oklab, var(--success) 35%, #fff); }
+.badge--warning  { background: color-mix(in oklab, var(--warning) 14%, #fff); color: #7c3e00; border-color: color-mix(in oklab, var(--warning) 35%, #fff); }
+.badge--danger   { background: color-mix(in oklab, var(--danger) 14%, #fff);  color: #7f1d1d; border-color: color-mix(in oklab, var(--danger) 35%, #fff); }
+
+/* Add spacing between consecutive badges */
+.badge + .badge {
+  margin-left: .4rem;
+}
+
+/* Cards (simple content blocks) */
+.card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 1rem;
+  transition: box-shadow var(--dur) var(--ease), border-color var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+.card:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
+.card + .card { margin-top: 1rem; }
+.card__title { margin: 0 0 .4rem 0; font-size: var(--h2); }
+.card__meta { color: var(--muted); font-size: .9rem; }

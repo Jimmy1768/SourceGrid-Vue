@@ -1,0 +1,34 @@
+{
+  "site": {
+    "title": "智格科技有限公司",
+    "tagline": "为你的创意打造智能基础架构。",
+    "copyright": "智格科技有限公司"
+  },
+  "intro": {
+    "p1": "我们帮助中小型企业把创意变成现实——从 iOS / Android 应用到线上平台。我们负责后台，让你专注于真正重要的客户。",
+    "p2": "所有应用与网站都运行在智格科技有限公司之下，无需自行设置服务器或账户。",
+    "badges": {
+      "rails_sidekiq": "Rails + Sidekiq",
+      "automation": "自动化",
+      "infrastructure": "基础架构"
+    }
+  },
+  "offer": {
+    "title": "我们提供的服务",
+    "items": {
+      "simple": "✔️ 简单快速的移动或网页应用开发",
+      "no_accounts": "✔️ 无需处理 Apple / Google 开发者账户",
+      "backend": "✔️ 后端支持由 Rails 与 Sidekiq 驱动——自动化、通知、报表",
+      "pricing": "✔️ 固定设置费用 + 按需扩展的月度托管服务"
+    }
+  },
+  "work": {
+    "title": "我们的作品",
+    "spot": "The Spot",
+    "dojomate": "DojoMate 应用程序",
+    "combatives": "Source Combatives"
+  },
+  "contact": {
+    "p": "如果你希望简化业务运营或实现数字化创意，请发送邮件至 {email} 了解更多信息。"
+  }
+}
