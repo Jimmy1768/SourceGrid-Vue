@@ -21,7 +21,7 @@ cd Projects/SourceGrid-Vue
 
 ```bash
 git add .
-git commit -m "include Upgrade link"
+git commit -m "fixed footer, created favicon"
 git push
 
 git pull
